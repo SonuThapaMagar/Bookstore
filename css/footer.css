@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 footer {
-  position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
+  background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 footer::before {
@@ -14,6 +18,7 @@ footer::before {
   top: 0px;
   width: 100%;
   background: #AFAFB6;
+  z-index: -1;
 }
 
 footer .content {
@@ -221,6 +226,7 @@ footer .bottom-details .bottom_text {
 @media (max-width: 520px) {
   footer::before {
     top: 145px;
+     z-index: -1;
   }
 
   footer .content .top {
