@@ -1,0 +1,58 @@
+.material-footer {
+    background-color: #424242; /* Material Design dark gray */
+    color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Adds elevation */
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* For responsiveness */
+    gap: 2rem;
+}
+
+.material-footer .footer-about,
+.material-footer .footer-links {
+    flex: 1;
+    min-width: 250px; /* Minimum width for responsiveness */
+}
+
+.material-footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.material-footer p,
+.material-footer ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.material-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.material-footer ul li {
+    margin: 0.5rem 0;
+}
+
+.material-footer ul li a {
+    color: #ffcc80; /* Accent color */
+    text-decoration: none;
+}
+
+.material-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1.5rem;
+    border-top: 1px solid #616161; /* Subtle border */
+    padding-top: 1rem;
+    font-size: 0.875rem;
+}
