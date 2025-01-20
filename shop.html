@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toronto Book Barn</title>
     <link rel="stylesheet" href="/css/shop.css">
-     <!-- Unicons CSS -->
-     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
 <body>
@@ -26,9 +26,10 @@
         <section>
             <div class="input-box">
                 <i class="uil uil-search"></i>
-                <input type="text" placeholder="Search here..." />
-                <button class="button">Search</button>
-              </div>
+                <input type="text" id="searchInput" placeholder="Search here..." />
+                <button class="button" id="searchButton">Search</button>
+            </div>
+            <div id="resultsContainer"></div>
         </section>
     </main>
 </body>
