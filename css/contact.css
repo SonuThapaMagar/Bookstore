@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .container{
   width: 50%;
   background: #fff;
@@ -37,7 +38,7 @@
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #EB5A3C;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -57,7 +58,7 @@
   font-size: 32px;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #3e2093;
+  color: #EB5A3C;
   font-family: sans-serif;
   margin-bottom: 1rem;
 }
@@ -95,12 +96,12 @@
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #EB5A3C;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #EB5A3C;
 }
 @media (max-width: 950px) {
   .container{
